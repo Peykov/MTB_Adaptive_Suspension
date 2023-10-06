@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../train/images
+test: ../test/images
+
+nc: 2
+names: ['jump', 'turn']
+
+roboflow:
+  workspace: roboflow-universe-projects
+  project: construction-site-safety
+  version: 27
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-universe-projects/construction-site-safety/dataset/27
